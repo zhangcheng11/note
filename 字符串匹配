@@ -1,4 +1,5 @@
- @Test
+```java
+@Test
     public void matchTest(){
         String content = "张诚中国香港商务机关山大道";
         String pattern = "张诚|成长|关山";
@@ -16,3 +17,4 @@
         Matcher m1=patter1.matcher(content);
         logger.info("返回：{}",m1.find());
     }
+```
